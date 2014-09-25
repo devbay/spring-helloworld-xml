@@ -2,9 +2,6 @@ package com.devbay;
 
 import com.devbay.spring.Printer;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainInt {
@@ -14,3 +11,4 @@ public class MainInt {
         printer.printMessage();
     }
 }
+

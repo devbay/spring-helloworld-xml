@@ -1,7 +1,6 @@
 package com.devbay.spring.Impl;
 
 import com.devbay.spring.IMessageService;
-import org.springframework.stereotype.Component;
 
 public class MessageService implements IMessageService {
     @Override
